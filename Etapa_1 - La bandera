@@ -1,0 +1,29 @@
+<canvas width="600" height="400"> </canvas>
+<script>
+	let pantalla = document.querySelector("canvas"); //seccion de trabajo CANVAS
+	let pincel = pantalla.getContext("2d"); //dibujar en un largo y un ancho
+	
+	pincel.fillStyle = "white"; //propiedad .fillStyle (BACKGROUND COLOR)
+	pincel.fillRect(0,0,600,400); //función de posicion y tamaño .fillRect
+	//posicion 0,0, largo, ancho
+	
+	pincel.fillStyle = "green"; //propiedad
+	pincel.fillRect(0,0,200,400); //función
+
+	pincel.fillStyle = "red"; //propiedad
+	pincel.fillRect(400,0,200,400); //función de posicion y tamaño .fillRect
+	//posicion (Vertical: 400, Horizontal: 0, largo, ancho)
+
+	pincel.fillStyle = "yellow"; //propiedad
+	pincel.beginPath();
+	pincel.moveTo(300,200); //Moverse a (largo, ancho)
+	pincel.lineTo(200,400); //llegar hasta (posicion, ancho)
+	pincel.lineTo(400,400); //legar hast (posicion, ancho)
+	pincel.fill(); //final del dibujo
+
+	pincel.fillStyle = "blue"; //propiedad
+	pincel.beginPath(); //empezar a dibujar
+	pincel.arc(300,200,50,0,(2*Math.PI)); //graficar circunferencias
+	//posicion inicial(largo, ancho, tamaño_radio,angulo_inicial,angulo_final)
+	pincel.fill(); //final del dibujo
+</script> 
