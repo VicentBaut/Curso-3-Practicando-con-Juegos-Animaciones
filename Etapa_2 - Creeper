@@ -1,0 +1,94 @@
+<canvas width="1270" height="670"> </canvas>
+
+<script>
+	let pantalla = document.querySelector("canvas"); //seccion de trabajo CANVAS
+	let pincel = pantalla.getContext("2d"); //dibujar en un largo y un ancho
+	
+	pincel.fillStyle = "lightgray"; //propiedad .fillStyle (BACKGROUND COLOR)
+	pincel.fillRect(15,15,1250,650); //función de posicion y tamaño .fillRect
+	//posicion 0,0, largo, ancho
+	
+	pincel.fillStyle = "black"; //propiedad
+	pincel.fillRect(350,50,200,200); //función
+	pincel.fillRect(750,50,200,200);
+
+	pincel.fillStyle = "black"; //propiedad
+	pincel.fillRect(550,250,200,300);
+	pincel.fillRect(450,350,100,300);
+	pincel.fillRect(750,350,100,300);
+
+	pincel.fillStyle = "#8FE38F";
+	pincel.fillRect(250,50,100,100);
+	pincel.fillRect(50,50,100,100);
+	pincel.fillRect(350,350,100,100);
+	pincel.fillRect(1050,350,100,100);
+	pincel.fillRect(1150,250,100,100);
+	pincel.fillRect(750,15,100,35);
+
+	pincel.fillStyle = "#3E993E";
+	pincel.fillRect(250,150,100,100);
+	pincel.fillRect(150,450,100,100);
+	pincel.fillRect(50,250,100,100);
+	pincel.fillRect(950,350,100,100);
+	pincel.fillRect(1150,150,100,100);
+	pincel.fillRect(950,150,100,100);
+
+	pincel.fillStyle = "#57A657";
+	pincel.fillRect(150,150,100,100);
+	pincel.fillRect(350,250,100,100);
+	pincel.fillRect(250,350,100,100);
+	pincel.fillRect(850,350,100,100);
+	pincel.fillRect(1050,250,100,100);
+	pincel.fillRect(450,15,100,35);
+
+	pincel.fillStyle = "#6DD26D";
+	pincel.fillRect(150,50,100,100);
+	pincel.fillRect(550,50,100,100);
+	pincel.fillRect(150,350,100,100);
+	pincel.fillRect(850,450,100,100);
+	pincel.fillRect(1050,450,100,100);
+	pincel.fillRect(1150,350,100,100);
+
+	pincel.fillStyle = "#D6F4D6";
+	pincel.fillRect(150,250,100,100);
+	pincel.fillRect(450,250,100,100);
+	pincel.fillRect(250,450,100,100);
+	pincel.fillRect(550,550,100,100);
+	pincel.fillRect(950,550,100,100);
+	pincel.fillRect(1050,150,100,100);
+
+	pincel.fillStyle = "#B0EBB0";
+	pincel.fillRect(550,150,100,100);
+	pincel.fillRect(50,150,100,100);
+	pincel.fillRect(1050,50,100,100);
+	pincel.fillRect(350,550,100,100);
+	pincel.fillRect(150,550,100,100);
+	pincel.fillRect(1150,550,100,100);
+
+	pincel.fillStyle = "#467846";
+	pincel.fillRect(650,50,100,100);
+	pincel.fillRect(250,250,100,100);
+	pincel.fillRect(750,250,100,100);
+	pincel.fillRect(1050,550,100,100);
+	pincel.fillRect(250,550,100,100);
+	pincel.fillRect(350,15,100,35);
+
+	pincel.fillStyle = "#198519";
+	pincel.fillRect(650,150,100,100);
+	pincel.fillRect(950,50,100,100);
+	pincel.fillRect(850,250,100,100);
+	pincel.fillRect(350,450,100,100);
+	pincel.fillRect(950,450,100,100);
+	pincel.fillRect(50,350,100,100);
+	pincel.fillRect(50,550,100,100);
+
+	pincel.fillStyle = "#0DB50D";
+	pincel.fillRect(950,250,100,100);
+	pincel.fillRect(1150,50,100,100);
+	pincel.fillRect(650,550,100,100);
+	pincel.fillRect(850,550,100,100);
+	pincel.fillRect(1150,450,100,100);
+	pincel.fillRect(50,450,100,100);
+	pincel.fillRect(850,15,100,35);
+
+</script>
